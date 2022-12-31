@@ -5,29 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
+  <article class="card">
+    <img src="./images/image-equilibrium.jpg" alt="glass cube">
+    <h2 class="card__title">Equilibrium #3429</h2>
 
-  Equilibrium #3429
+    <p class="card__content">Our Equilibrium collection promotes balance and calm.</p>
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="card__info">
+      <div>
+        <svg class="icon" width="11" height="18" aria-hidden="true" focusable="false">
+          <use href="./images/icon-ethereum.svg#ethereum"></use>
+        </svg>
+        <span class="info__eth">0.041 ETH</span>
+      </div>
+      <div>
+        <svg class="icon" width="17" height="17" aria-hidden="true" focusable="false">
+          <use href="./images/icon-clock.svg#clock"></use>
+        </svg>
+        <span class="info__time">3 days left</span>
+      </div>
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <p class="card__author"><span>Creation of</span> Jules Wyvern</p>
+  </article>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/creative-cookie">creative-cookie</a>.
   </div>
 </body>
 </html>
