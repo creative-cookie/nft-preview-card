@@ -13,22 +13,27 @@
 </head>
 <body>
   <article class="card">
-    <a href="#">
-      <img src="./images/image-equilibrium.jpg" alt="glass cube">
-    </a>
-    <div class="card__content">
+      <a href="#" class="img-wrapper">
+        <img class="card__img" src="./images/image-equilibrium.jpg" alt="glass cube">
+        <div class="view-icon flex">
+          <svg class="icon" width="48" height="48">
+            <use href="./images/icon-view.svg#view"></use>
+          </svg>
+        </div>
+      </a>
+    <div class="card__content flex">
       <h2 class="card__title"><a href="#">Equilibrium #3429</a></h2>
 
-      <p class="card__body">Our Equilibrium collection promotes balance and calm.</p>
+      <p class="card__desc">Our Equilibrium collection promotes balance and calm.</p>
 
-      <div class="card__info">
-        <div>
+      <div class="card__info flex">
+        <div class="flex align-items-center">
           <svg class="icon" width="11" height="18" aria-hidden="true" focusable="false">
             <use href="./images/icon-ethereum.svg#ethereum"></use>
           </svg>
           <span class="card__eth">0.041 ETH</span>
         </div>
-        <div>
+        <div class="flex align-items-center">
           <svg class="icon" width="17" height="17" aria-hidden="true" focusable="false">
             <use href="./images/icon-clock.svg#clock"></use>
           </svg>
@@ -36,9 +41,9 @@
         </div>
       </div>
    </div>
-  <div class="card__footer">
-  <img src="./images/image-avatar.png" alt="Jules Wyvern avatar" class="card__author-img">
-  <p class="card__author">Creation of <a href="#">Jules Wyvern</a></p>
+  <div class="card__footer flex align-items-center">
+    <img class="card__author-img" src="./images/image-avatar.png" alt="Jules Wyvern avatar">
+    <p class="card__author">Creation of <a href="#">Jules Wyvern</a></p>
   </div>
   </article>
 
