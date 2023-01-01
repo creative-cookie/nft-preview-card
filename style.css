@@ -122,7 +122,8 @@ a:focus{
     border-radius: var(--br-small);
 }
 
-.view-icon:hover{
+.img-link:hover .view-icon,
+.img-link:focus .view-icon{
     opacity: 1;
 }
 
