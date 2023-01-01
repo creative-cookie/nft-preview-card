@@ -39,4 +39,4 @@ Users should be able to:
 - CSS Grid
 
 ### What I learned
-Since I was unfamiliar with working with svg files, I took the time to research this file format and learned about the various ways svg artwork is created and how it can be used within HTML files and styled with CSS. I also did a little bit of research into various ways on how to get the view icon to appear when the main image was rolled over and decided to go with Grid to accomplish this.
+Since I was unfamiliar with working with svg files, I took the time to research this file format and learned about the various ways svg artwork is created and how it can be used within HTML files and styled with CSS. I also did a little bit of research into various ways to get the view icon to appear when the main image was rolled over and decided to go with Grid to accomplish this. In addition, I learned that multiple shadows can be added to an element by using the `box-shadow` CSS property.
